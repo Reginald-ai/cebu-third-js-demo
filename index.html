@@ -5,8 +5,30 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <style>
+      body {
+        position: relative;
+        -webkit-font-smoothing: antialiased;
+      }
+      .child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
+    <div id="app" class="mx-auto">
+      <div class="text-center text-white child">
+        <h1>Reginald</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque velit
+          dicta debitis dignissimos! Repellat, est officia molestias impedit, et
+          magnam, distinctio voluptatem fugit ullam aliquid perspiciatis.
+        </p>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
